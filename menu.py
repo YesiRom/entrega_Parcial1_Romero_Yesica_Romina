@@ -1,5 +1,6 @@
 def mostrar_menu_principal():   
-    print ("""Gestion de Clinica
+    print ("""_______________________________________________________________________
+           Gestion de Clinica
     1 - Cargar paciente
     2 - Mostrar todos los pacientes
     3 - Buscar paciente por el numero de HC
@@ -9,6 +10,7 @@ def mostrar_menu_principal():
     7 - Cantidad de paciente con mas de 5 dias de internacion
     8 - Promedio de dias de internacion de todos los pacientes
     9 - Salir
+_____________________________________________________________________________________
 """)
         
         

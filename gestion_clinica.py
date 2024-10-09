@@ -1,17 +1,17 @@
 from menu import *
 from funciones_del_paciente import *
+from carga_de_pacientes import *
+from buscador import *
+from ordenamiento import *
+from funciones_con_internacion import *
+from parcial import *
 
-pacientes = [
- [1234, "romi", 34, "fiebre", 6],
- [2345, "fer", 45, "tos", 3],
- [1400, "gus", 21, "fari", 9],
- [1500, "Ro", 54, "hok", 5]
-]
+pacientes = []
 TERMINAR = ""
-
+alumna()
 while TERMINAR != "salir":
     mostrar_menu_principal()
-    opcion = int(input("elegir la opcion de menu"))
+    opcion = int(input("elegir la opcion de menu: "))
         
     match opcion:
         case 1:
